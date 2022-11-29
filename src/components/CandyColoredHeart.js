@@ -9,7 +9,7 @@ const colors = [
     '#fffcf2'
 ];
 
-const CandyColoredHeart = () => {
+const CandyColoredHeart = (props) => {
     const randomCol = colors[Math.floor(Math.random() * colors.length)];
     return (
         <div className='heart'>
